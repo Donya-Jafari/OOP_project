@@ -60,7 +60,7 @@ public class InputManager
            NormalFuncs.showOrderStatus(Integer.parseInt(splitted[4]));
        else if(input.trim().matches("FIND BEST PATH \\d+ TO RESTAURANT"))/////////////////////
            NormalFuncs.showFromNowToRestaurant(Integer.parseInt(splitted[3]));
-       else if(input.trim().matches("FIND BEST PATH \\d+ TO CUSTOMER"))/////////////////////
+       else if(input.trim().matches("FIND BEST PATH \\d+ TO CUSTOMER"))////////////////////
            NormalFuncs.showFromNowToCustomer(Integer.parseInt(splitted[3]));
        else if(input.trim().equals("SHOW MAP"))/////////////////////
            Graph.showMap();
